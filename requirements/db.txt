@@ -1,0 +1,4 @@
+# 数据库模块依赖
+psycopg2-binary
+sqlalchemy>=2.0
+eralchemy2

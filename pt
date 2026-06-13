@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+"""pt — Python Tools unified CLI entry point."""
+
+import sys
+from pathlib import Path
+
+# Ensure project root is on sys.path
+_PROJECT_ROOT = str(Path(__file__).resolve().parent)
+if _PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, _PROJECT_ROOT)
+
+from pt_cli.main import main  # noqa: E402
+
+if __name__ == "__main__":
+    main()

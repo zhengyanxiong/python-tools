@@ -1,0 +1,9 @@
+# Python Tools — 汇总依赖文件
+# 安装所有依赖: pip install -r requirements.txt
+# 按需安装:     pip install -r requirements/excel.txt
+
+-r requirements/base.txt
+-r requirements/excel.txt
+-r requirements/pdf.txt
+-r requirements/api.txt
+-r requirements/db.txt
